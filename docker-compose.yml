@@ -1,0 +1,6 @@
+services:
+  sshandbox:
+    build: .
+    container_name: sshandbox
+    ports:
+      - "2222:22"

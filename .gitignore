@@ -1,2 +1,4 @@
+# dont commit your keys!!!
 authorized_keys
 *.pub
+id_*

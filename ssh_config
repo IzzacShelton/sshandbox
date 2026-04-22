@@ -1,0 +1,6 @@
+Host sshandbox
+  HostName localhost
+  Port 2222
+  User ahab
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no

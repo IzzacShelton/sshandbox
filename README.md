@@ -11,9 +11,9 @@ cp ~/.ssh/id_ed25519_sk.pub ../dockssh/authorized_keys
 ```
 
 Running:
-run the docker image 
+build & run the container
 ```bash
-./run.sh
+docker compose up -d --build
 ```
 
 Connecting:
@@ -22,5 +22,9 @@ ssh into the docker image as ahab
 ssh -i ~/.ssh/id_ed25519_sk ahab@localhost -p 2222
 ```
 
+Stopping:
+```
+docker compose down 
+```
 
 ---------------------------------------------------
