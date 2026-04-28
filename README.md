@@ -7,7 +7,7 @@ ssh-keygen -t ed25519-sk -f ~/.ssh/id_ed25519_sk
 
 copy security key's public ssh key (`~/.ssh/*_sk.pub`) as `authorized_keys` into the same directory as the `Dockerfile`
 ```bash
-cp ~/.ssh/id_ed25519_sk.pub ../dockssh/authorized_keys
+cp ~/.ssh/id_ed25519_sk.pub ./authorized_keys
 ```
 
 Running:
